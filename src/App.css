@@ -1,0 +1,75 @@
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #000;
+  box-sizing: border-box;
+  font-family: monospace;
+  margin: 0;
+  padding: 0;
+}
+
+.ef {
+  display: table;
+  height: 100vh;
+  text-align: center;
+  width: 100%;
+}
+
+.ef-logo {
+  -webkit-animation: baa 5s;
+  -moz-animation: baa 5s;
+  -ms-animation: baa 5s;
+  -o-animation: baa 5s;
+  animation: baa 5s;
+  height: 20vmin;
+  transition: 1.5s all;
+}
+
+.ef-logo:hover {
+  transform: rotate(360deg);
+}
+
+.ef__title {
+  font-size: 4vmin;
+}
+
+.ef,
+.ef__title {
+  -webkit-animation: baa 2s;
+  -moz-animation: baa 2s;
+  -ms-animation: baa 2s;
+  -o-animation: baa 2s;
+  animation: baa 2s;
+}
+
+.ef__title a,
+.ef__title a:visited {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.4s all;
+}
+
+.ef__title a:hover,
+.ef__title a:focus {
+  text-shadow: 3px -3px 0px #D80027;
+}
+
+.ef__content {
+  display: table-cell;
+  padding: 1rem;
+  vertical-align: middle;
+  width: 100%;
+}
+
+@keyframes baa {
+  from { opacity: 0 }
+  to   { opacity: 1 }
+}
+@-moz-keyframes baa {
+  from { opacity: 0 }
+  to   { opacity: 1 }
+}
+@-webkit-keyframes baa {
+  from { opacity: 0 }
+  to   { opacity: 1 }
+}
