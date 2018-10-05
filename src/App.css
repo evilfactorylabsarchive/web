@@ -22,11 +22,6 @@ body {
   -o-animation: baa 5s;
   animation: baa 5s;
   height: 20vmin;
-  transition: 1.5s all;
-}
-
-.ef-logo:hover {
-  transform: rotate(360deg);
 }
 
 .ef__title {
