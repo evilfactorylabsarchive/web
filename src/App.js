@@ -23,7 +23,7 @@ class App extends Component {
         <div className='ef__content'>
           <Logo />
           <h2 className='ef__title'>
-            <a href='https://github.com/evilfactory-id'>
+            <a href='https://github.com/evilfactorylabs'>
               evilfactory.id
             </a>
           </h2>
