@@ -1,26 +1,18 @@
 {
-  "name": "web",
-  "version": "0.1.0",
+  "name": "@evilfactorylabs/web",
   "private": true,
-  "dependencies": {
-    "react": "^16.5.2",
-    "react-dom": "^16.5.2",
-    "react-scripts": "2.0.3",
-    "react-snapshot": "^1.3.0"
-  },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build && react-snapshot",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "build": "gridsome build",
+    "develop": "gridsome develop",
+    "explore": "gridsome explore"
   },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ]
+  "dependencies": {
+    "@gridsome/plugin-google-analytics": "0.1.0",
+    "@gridsome/plugin-sitemap": "0.1.1",
+    "@gridsome/remark-prismjs": "0.0.5",
+    "@gridsome/source-filesystem": "0.3.0",
+    "@gridsome/transformer-remark": "0.2.1",
+    "gridsome": "^0.5.0",
+    "gridsome-plugin-rss": "1.1.0"
+  }
 }
