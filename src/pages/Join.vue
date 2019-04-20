@@ -1,0 +1,32 @@
+<template>
+  <Layout>
+    <h1>Join</h1>
+    <p>
+      Wanna having fun and learning together? We don't have enough time to create this UI,
+      but you can apply by sending a POST request to <code>https://labs.evilfactory.id/join</code>
+      with parameters:
+    </p>
+    <ul>
+      <li><code>role</code> string from ['backend', 'frontend', 'designer']</li>
+      <li><code>github</code> string of your github username</li>
+      <li><code>email</code> string of your email address so we can contact you</li>
+      <li><code>portfolios</code> array of string of your portfolios url (medium, personal website, etc)</li>
+      <li><code>notes</code> string of optional notes for us</li>
+    </ul>
+    <p>
+      Example:
+    </p>
+    <pre class="language-bash">$ curl https://labs.evilfactory.id/join \
+    -d '{
+      "role": "backend",
+      "github": "108kb",
+      "email": "hello@evilfactory.id",
+      "portfolios": ["https://108kb.io"],
+      "notes": "cool"
+    }' \
+    -H "Content-Type: application/json"</pre>
+    <p>
+      Once the request was succesfully sent, we'll getting in touch with you via email.
+    </p>
+  </Layout>
+</template>

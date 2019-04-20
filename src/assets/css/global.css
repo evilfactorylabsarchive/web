@@ -1,0 +1,28 @@
+:root {
+  --red: #E53A40;
+  --red-darker: #d01c22;
+}
+
+body {
+  margin:0;
+  padding:0;
+  line-height: 1.5;
+  color: #333333;
+  font-family: "Space Mono";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  border: 1px solid #ddd;
+  border-radius: 2px;
+  background-color: #eee;
+  padding: 2px 8px;
+  font-size: 14px !important;
+}
+
+li {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  line-height: 2rem;
+}
