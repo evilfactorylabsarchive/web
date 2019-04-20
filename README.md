@@ -1,7 +1,7 @@
 <h1 align="center">
-  Setup
+  Evilfactory
 </h1>
 
 <p align="center">
-   https://github.com/evilfactory-id
+   https://github.com/evilfactorylabs
 </p>
