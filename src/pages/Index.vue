@@ -1,12 +1,12 @@
 <template>
-  <Layout class="pt4 mt3">
+  <Layout class="pt4-ns mt3-ns">
     <div class="o-bg">
       <img
         class="w-100 dn db-ns"
         src="@/assets/img/bg.jpg"
       />
     </div>
-    <div class="bg-white pa4 br1-l relative">
+    <div class="bg-white pa4-ns br1-l relative">
       <h2 class="f2 lh-title tracked mt0">
         Welcome
       </h2>
