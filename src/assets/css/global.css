@@ -1,6 +1,7 @@
 :root {
   --red: #E53A40;
   --red-darker: #d01c22;
+  --navy: #001B44;
 }
 
 body {
@@ -25,6 +26,22 @@ li {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
   line-height: 2rem;
+}
+
+/* FIXME: Prevent global mutation as we can */
+
+input,
+textarea {
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  transition: 0.3s all;
+}
+
+textarea:hover,
+textarea:focus,
+input:hover,
+input:focus {
+  border-color: var(--navy);
 }
 
 .c-button {

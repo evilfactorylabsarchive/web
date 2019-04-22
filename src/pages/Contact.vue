@@ -19,7 +19,7 @@
           Name (required)
         </label>
         <input
-          class="db ph2 pv1 lh-copy f6 mt1 w-100"
+          class="db ph2 pv2 lh-copy f6 mt1 w-100"
           id="name"
           type="text"
           placeholder="Your name"
@@ -36,7 +36,7 @@
           Email (required)
         </label>
         <input
-          class="db ph2 pv1 lh-copy f6 mt1 w-100"
+          class="db ph2 pv2 lh-copy f6 mt1 w-100"
           id="email"
           type="email"
           placeholder="Your email address so we can get in touch"
@@ -53,7 +53,7 @@
           Website
         </label>
         <input
-          class="db ph2 pv1 lh-copy f6 mt1 w-100"
+          class="db ph2 pv2 lh-copy f6 mt1 w-100"
           id="website"
           type="text"
           name="website"
@@ -70,7 +70,7 @@
         </label>
         <textarea
           rows="8"
-          class="db ph2 pv1 lh-copy f6 mt1 w-100"
+          class="db pa3 lh-copy f6 mt1 w-100"
           id="notes"
           v-model="notes"
           name="notes"
