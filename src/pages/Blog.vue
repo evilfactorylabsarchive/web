@@ -9,7 +9,7 @@
         class="lh-copy"
       >
         <a
-          :href="post.html_url"
+          :href="`post.html_url#issue-${post.id}`"
           target="_blank"
           rel="noopener"
           class="black no-underline hover-red"
