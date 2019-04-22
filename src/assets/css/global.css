@@ -1,0 +1,76 @@
+:root {
+  --red: #E53A40;
+  --red-darker: #d01c22;
+  --navy: #001B44;
+}
+
+::selection {
+  color: #ffffff;
+  background-color: var(--navy);
+}
+
+body {
+  margin:0;
+  padding:0;
+  line-height: 1.5;
+  color: #333333;
+  font-family: "Space Mono";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  border: 1px solid #ddd;
+  border-radius: 2px;
+  background-color: #eee;
+  padding: 2px 8px;
+  font-size: 14px !important;
+}
+
+li {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  line-height: 2rem;
+}
+
+/* FIXME: Prevent global mutation as we can */
+
+input,
+textarea {
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  transition: 0.3s all;
+}
+
+textarea:hover,
+textarea:focus,
+input:hover,
+input:focus {
+  border-color: var(--navy);
+}
+
+.c-button {
+  color: #ffffff;
+  border: 1px solid var(--red);
+  background-color: var(--red);
+  padding: 12px 20px;
+  transition: 0.3s all;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.c-button:hover,
+.c-button:focus {
+  cursor: pointer;
+  background-color: var(--red-darker);
+}
+
+.c-button:disabled {
+  color: #cccccc;
+  background-color: #eeeeee;
+  border-color: #cccccc;
+}
+
+.c-button:disabled:hover {
+  cursor: not-allowed;
+}
