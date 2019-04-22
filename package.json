@@ -11,5 +11,8 @@
     "@gridsome/remark-prismjs": "0.0.5",
     "@gridsome/transformer-remark": "0.2.1",
     "gridsome": "0.5.8"
+  },
+  "devDependencies": {
+    "gridsome-plugin-purgecss": "1.0.10"
   }
 }
