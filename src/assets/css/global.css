@@ -4,6 +4,11 @@
   --navy: #001B44;
 }
 
+::selection {
+  color: #ffffff;
+  background-color: var(--navy);
+}
+
 body {
   margin:0;
   padding:0;
