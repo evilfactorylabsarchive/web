@@ -3,7 +3,6 @@
     <h1>Contact</h1>
     <p>Launching a new web application? Need help with an existing project? Let's talk.</p>
     <form
-      name="Contact"
       data-netlify-honeypot="bot-field"
       data-netlify="true"
       @submit.prevent="handleSubmit"
@@ -134,6 +133,7 @@ export default {
         method: 'POST',
         headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
         body: encode({
+          'form-name': 'Contact',
           'name': this.name,
           'email': this.email,
           'notes': this.notes,
