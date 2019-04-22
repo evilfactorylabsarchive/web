@@ -15,7 +15,7 @@
   font-display: auto;
   font-weight: 400;
   src: local('Space Mono'), local('SpaceMono-Regular'),
-       url('../fonts/space-mono-v4-latin/space-mono-v4-latin-regular.woff2') format('woff2');
+       url('../fonts/space-mono-v4-latin/space-mono-v4-latin-regular.woff') format('woff');
 }
 
 @font-face {
@@ -24,7 +24,7 @@
   font-display: auto;
   font-weight: 700;
   src: local('Space Mono Bold'), local('SpaceMono-Bold'),
-       url('../fonts/space-mono-v4-latin/space-mono-v4-latin-700.woff2') format('woff2');
+       url('../fonts/space-mono-v4-latin/space-mono-v4-latin-700.woff') format('woff');
 }
 
 body {
