@@ -4,10 +4,9 @@
     <p>Launching a new web application? Need help with an existing project? Let's talk.</p>
     <form
       name="Contact"
-      method="post"
-      action="/thanks/"
       data-netlify-honeypot="bot-field"
       data-netlify="true"
+      @submit="handleSubmit"
     >
       <p class="dn">
         <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
@@ -58,6 +57,7 @@
           id="website"
           type="text"
           name="website"
+          v-model="website"
           placeholder="Your company website URL"
         >
       </div>
@@ -97,7 +97,8 @@ export default {
   data: () => ({
     name: '',
     email: '',
-    notes: ''
+    notes: '',
+    website: ''
   }),
   computed: {
     shouldButtonDisabled () {
@@ -107,6 +108,30 @@ export default {
       if (this.name.length < 3 || this.email.length < 3 || this.notes.length < 3) return true
 
       return false
+    }
+  },
+  methods: {
+    handleSubmit (e) {
+      const encode = data => {
+        return Object.keys(data)
+          .map(key => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]))
+          .join('&')
+      }
+
+      window.fetch('/', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+        body: encode({
+          'name': this.name,
+          'email': this.email,
+          'notes': this.notes,
+          'website': this.website
+        })
+      })
+        .then(() => window.location.replace('/thanks/'))
+        .catch(error => alert(error))
+
+      e.preventDefault()
     }
   }
 }
