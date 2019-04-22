@@ -36,22 +36,6 @@
 </template>
 
 <style scoped>
-.c-button {
-  color: #ffffff;
-  border: 1px solid var(--red);
-  background-color: var(--red);
-  padding: 12px 20px;
-  transition: 0.3s all;
-  text-decoration: none;
-  display: inline-block;
-}
-
-.c-button:hover,
-.c-button:focus {
-  cursor: pointer;
-  background-color: var(--red-darker);
-}
-
 .o-bg {
   user-select: none;
   position: absolute;
