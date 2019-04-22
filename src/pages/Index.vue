@@ -35,6 +35,14 @@
   </Layout>
 </template>
 
+<script>
+import Layout from '~/layouts/Home'
+
+export default {
+  components: { Layout }
+}
+</script>
+
 <style scoped>
 .o-bg {
   user-select: none;
