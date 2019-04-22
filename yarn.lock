@@ -3700,7 +3700,7 @@ gray-matter@^4.0.2:
     section-matter "^1.0.0"
     strip-bom-string "^1.0.0"
 
-gridsome@^0.5.0:
+gridsome@0.5.8:
   version "0.5.8"
   resolved "https://registry.yarnpkg.com/gridsome/-/gridsome-0.5.8.tgz#aff05b732f0c628d6a7d3c3277821c64a05e5a75"
   integrity sha512-O2LKoaxkBoCdQXkeqcFsJHlChlmiynBaaBV2SVgw/qQTpsZZ7sefJutCOMeS1H2l7Kst38r62ADx03FPEe47rQ==
