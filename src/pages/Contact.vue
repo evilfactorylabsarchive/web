@@ -3,10 +3,10 @@
     <h1>Contact</h1>
     <p>Launching a new web application? Need help with an existing project? Let's talk.</p>
     <form
-      name="contact"
-      method="POST"
+      name="Contact"
+      method="post"
       action="/thanks/"
-      netlify-honeypot="bot-field"
+      data-netlify-honeypot="bot-field"
       data-netlify="true"
     >
       <p class="dn">
