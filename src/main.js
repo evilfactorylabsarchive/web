@@ -15,11 +15,6 @@ export default function (Vue, { head }) {
   })
   
   head.link.push({
-    href: 'https://fonts.googleapis.com/css?family=Space+Mono:400,700',
-    rel: 'pefetch stylesheet'
-  })
-
-  head.link.push({
     href: 'https://cdnjs.cloudflare.com/ajax/libs/prism/1.15.0/themes/prism-tomorrow.min.css',
     rel: 'prefetch stylesheet'
   })
