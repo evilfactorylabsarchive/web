@@ -6,7 +6,7 @@
       name="Contact"
       data-netlify-honeypot="bot-field"
       data-netlify="true"
-      @submit="handleSubmit"
+      @submit.prevent="handleSubmit"
     >
       <p class="dn">
         <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
@@ -123,7 +123,7 @@ export default {
     }
   },
   methods: {
-    handleSubmit (e) {
+    handleSubmit () {
       const encode = data => {
         return Object.keys(data)
           .map(key => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]))
@@ -142,8 +142,6 @@ export default {
       })
         .then(() => window.location.replace('/thanks/'))
         .catch(error => alert(error))
-
-      e.preventDefault()
     }
   }
 }
