@@ -93,7 +93,19 @@
 </template>
 
 <script>
+import metaTagGenerator from '~/metaTagGenerator'
+
 export default {
+  metaInfo () {
+    return {
+      title: "We'd love to talk",
+      meta: metaTagGenerator({
+        title: "We'd love to talk",
+        description: "Launching a new web application? Need help with an existing project? Let's talk.",
+        url: 'https://evilfactory.id/contact/'
+      })
+    }
+  },
   data: () => ({
     name: '',
     email: '',

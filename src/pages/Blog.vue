@@ -51,7 +51,19 @@
 </template>
 
 <script>
+import metaTagGenerator from '~/metaTagGenerator'
+
 export default {
+  metaInfo () {
+    return {
+      title: 'Blog by evilfactory',
+      meta: metaTagGenerator({
+        title: 'Blog by evilfactory',
+        description: 'Read what our thoughts, tinkering, the proccess, and the output. Enjoy.',
+        url: 'https://evilfactory.id/blog/'
+      })
+    }
+  },
   data: () => ({
     posts: []
   }),

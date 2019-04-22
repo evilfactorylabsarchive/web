@@ -33,3 +33,21 @@
     </p>
   </Layout>
 </template>
+
+<script>
+import metaTagGenerator from '~/metaTagGenerator'
+
+export default {
+  metaInfo () {
+    return {
+      title: 'Join with us',
+      meta: metaTagGenerator({
+        title: 'Join with us',
+        description: 'Wanna having fun and learning together?',
+        url: 'https://evilfactory.id/join/'
+      })
+    }
+  },
+}
+</script>
+

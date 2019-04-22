@@ -36,10 +36,21 @@
 </template>
 
 <script>
+import metaTagGenerator from '~/metaTagGenerator'
 import Layout from '~/layouts/Home'
 
 export default {
-  components: { Layout }
+  components: { Layout },
+  metaInfo () {
+    return {
+      title: 'evilfactory: The Web Technologies tinkerer team',
+      meta: metaTagGenerator({
+        title: 'evilfactory: The Web Technologies tinkerer team',
+        description: 'We are tinkering with modern web technologies. Believe in OSS and speak JavaScript both on frontend and backend',
+        url: 'https://evilfactory.id'
+      })
+    }
+  }
 }
 </script>
 
