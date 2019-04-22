@@ -2,6 +2,9 @@
   <Layout>
     <h1>Blog</h1>
     <p>We do write a blog post. Enjoy</p>
+    <p v-if="!posts.length">
+      Loading...
+    </p>
     <ul>
       <li
         v-for="post in posts"
