@@ -4,7 +4,6 @@
     <div class="o-layout">
       <slot/>
     </div>
-    <Footer />
   </div>
 </template>
 
@@ -21,15 +20,13 @@ import Navbar from '~/components/Navbar'
 
 export default {
   components: {
-    Navbar,
-    Footer: () => import('~/components/Footer')
+    Navbar
   }
 }
 </script>
 
 <style scoped>
 .o-layout {
-  min-height: 100vh;
   max-width: 760px;
   margin: 0 auto;
   margin-top: 8rem;
