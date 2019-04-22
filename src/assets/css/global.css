@@ -21,6 +21,7 @@
 @font-face {
   font-family: 'Space Mono';
   font-style: normal;
+  font-display: auto;
   font-weight: 700;
   src: local('Space Mono Bold'), local('SpaceMono-Bold'),
        url('../fonts/space-mono-v4-latin/space-mono-v4-latin-700.woff2') format('woff2'),
