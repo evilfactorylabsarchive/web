@@ -2,7 +2,16 @@
   <Layout>
     <h1>Contact</h1>
     <p>Launching a new web application? Need help with an existing project? Let's talk.</p>
-    <form name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true">
+    <form
+      name="contact"
+      method="POST"
+      action="/thanks/"
+      netlify-honeypot="bot-field"
+      data-netlify="true"
+    >
+      <p class="dn">
+        <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+      </p>
       <div class="mt3">
         <label
           class="f6"
@@ -16,6 +25,7 @@
           type="text"
           placeholder="Your name"
           v-model="name"
+          name="name"
           required
         >
       </div>
@@ -32,6 +42,7 @@
           type="email"
           placeholder="Your email address so we can get in touch"
           v-model="email"
+          name="email"
           required
         >
       </div>
@@ -46,6 +57,7 @@
           class="db ph2 pv1 lh-copy f6 mt1 w-100"
           id="website"
           type="text"
+          name="website"
           placeholder="Your company website URL"
         >
       </div>
@@ -61,6 +73,7 @@
           class="db ph2 pv1 lh-copy f6 mt1 w-100"
           id="notes"
           v-model="notes"
+          name="notes"
           placeholder="How can we help?"
           required
         >
