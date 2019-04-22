@@ -7,6 +7,7 @@
       with parameters:
     </p>
     <ul>
+      <li><code>name</code> string of your name</li>
       <li><code>role</code> string from ['backend', 'frontend', 'designer', 'whatever']</li>
       <li><code>github</code> string of your github username</li>
       <li><code>email</code> string of your email address so we can contact you</li>
@@ -18,6 +19,7 @@
     </p>
     <pre class="language-bash">$ curl https://labs.evilfactory.id/join \
     -d '{
+      "name": "Fariz",
       "role": "backend",
       "github": "108kb",
       "email": "hello@evilfactory.id",
