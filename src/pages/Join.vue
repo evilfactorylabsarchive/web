@@ -7,10 +7,10 @@
       with parameters:
     </p>
     <ul>
-      <li><code>role</code> string from ['backend', 'frontend', 'designer']</li>
+      <li><code>role</code> string from ['backend', 'frontend', 'designer', 'whatever']</li>
       <li><code>github</code> string of your github username</li>
       <li><code>email</code> string of your email address so we can contact you</li>
-      <li><code>portfolios</code> array of string of your portfolios url (medium, personal website, etc)</li>
+      <li><code>portfolios</code> array of string of your portfolios url (medium, dribbble, personal website, etc)</li>
       <li><code>notes</code> string of optional notes for us</li>
     </ul>
     <p>
@@ -27,6 +27,9 @@
     -H "Content-Type: application/json"</pre>
     <p>
       Once the request was succesfully sent, we'll getting in touch with you via email.
+    </p>
+    <p>
+      Currently we are only accepting for intern position.
     </p>
   </Layout>
 </template>
