@@ -80,7 +80,7 @@
       </div>
       <div class="mv3">
         <button
-          :disabled="shouldButtonDisabled"
+          :disabled="shouldButtonDisabled || isLoading"
           type="submit"
           class="c-button w-100 w-20-ns"
         >
@@ -109,7 +109,8 @@ export default {
     name: '',
     email: '',
     notes: '',
-    website: ''
+    website: '',
+    isLoading: false
   }),
   computed: {
     shouldButtonDisabled () {
@@ -123,6 +124,7 @@ export default {
   },
   methods: {
     handleSubmit () {
+      this.isLoading = true
       const encode = data => {
         return Object.keys(data)
           .map(key => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]))
@@ -140,8 +142,14 @@ export default {
           'website': this.website
         })
       })
-        .then(() => window.location.replace('/thanks/'))
-        .catch(error => alert(error))
+        .then(() => {
+          window.location.replace('/thanks/')
+          this.isLoading = false
+        })
+        .catch(error => {
+          window.alert(error)
+          this.isLoading = false
+        })
     }
   }
 }
