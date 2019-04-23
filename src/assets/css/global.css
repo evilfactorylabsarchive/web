@@ -12,7 +12,7 @@
 @font-face {
   font-family: 'Space Mono';
   font-style: normal;
-  font-display: auto;
+  font-display: swap;
   font-weight: 400;
   src: local('Space Mono'), local('SpaceMono-Regular'),
        url('../fonts/space-mono-v4-latin/space-mono-v4-latin-regular.woff2') format('woff2'),
@@ -22,7 +22,7 @@
 @font-face {
   font-family: 'Space Mono';
   font-style: normal;
-  font-display: auto;
+  font-display: swap;
   font-weight: 700;
   src: local('Space Mono Bold'), local('SpaceMono-Bold'),
        url('../fonts/space-mono-v4-latin/space-mono-v4-latin-700.woff2') format('woff2'),
@@ -34,7 +34,7 @@ body {
   padding:0;
   line-height: 1.5;
   color: #333333;
-  font-family: "Space Mono";
+  font-family: "Space Mono", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
