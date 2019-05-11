@@ -3,7 +3,7 @@
     <h1>Join</h1>
     <p>
       Wanna having fun and learning together? We don't have enough time to create this UI,
-      but you can apply by sending a POST request to <code>https://909pvrkjsk.execute-api.ap-southeast-1.amazonaws.com/staging</code>
+      but you can apply by sending a POST request to <code>https://evilfactorylabs.now.sh</code>
       with parameters:
     </p>
     <ul>
@@ -17,7 +17,7 @@
     <p>
       Example:
     </p>
-    <pre class="language-bash">$ curl https://909pvrkjsk.execute-api.ap-southeast-1.amazonaws.com/staging \
+    <pre class="language-bash">$ curl https://evilfactorylabs.now.sh \
     -d '{
       "name": "Fariz",
       "role": "backend",
