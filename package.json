@@ -13,6 +13,6 @@
     "gridsome": "0.5.8"
   },
   "devDependencies": {
-    "gridsome-plugin-purgecss": "1.0.10"
+    "gridsome-plugin-purgecss": "1.0.12"
   }
 }
