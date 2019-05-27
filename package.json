@@ -10,7 +10,7 @@
     "@gridsome/plugin-google-analytics": "0.1.0",
     "@gridsome/remark-prismjs": "0.0.5",
     "@gridsome/transformer-remark": "0.3.2",
-    "gridsome": "0.6.2"
+    "gridsome": "0.6.3"
   },
   "devDependencies": {
     "gridsome-plugin-purgecss": "1.0.12"
