@@ -8,7 +8,7 @@
     </div>
     <div class="bg-white pa4-ns br1-l relative">
       <h2 class="f2 lh-title tracked mt0">
-        Welcome
+        Hellcome
       </h2>
       <p class="lh-copy mt4">
         evilfactory is a small team specializing in Modern Web Technologies.
@@ -29,7 +29,7 @@
         to="/contact"
         class="mt3 br1 lh-title c-button"
       >
-        work with us
+        work with god
       </g-link>
     </div>
   </Layout>
