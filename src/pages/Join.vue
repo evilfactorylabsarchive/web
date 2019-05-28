@@ -2,9 +2,9 @@
   <Layout>
     <h1>Join</h1>
     <p>
-      Wanna having fun and learning together? We don't have enough time to create this UI,
+      Want to have fun and learn together? We don't have enough time to create the UI for this,
       but you can apply by sending a POST request to <code>https://join.evilfactory.now.sh</code>
-      with parameters:
+      with the following parameters:
     </p>
     <ul>
       <li><code>name</code> string of your name</li>
@@ -28,10 +28,10 @@
     }' \
     -H "Content-Type: application/json"</pre>
     <p>
-      Once the request was succesfully sent, we'll getting in touch with you via email.
+      Once the request has been succesfully sent, we will be getting in touch with you via email.
     </p>
     <p>
-      Currently we are only accepting for intern position.
+      Currently we are only accepting interns.
     </p>
   </Layout>
 </template>

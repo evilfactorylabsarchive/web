@@ -8,7 +8,7 @@
       @submit.prevent="handleSubmit"
     >
       <p class="dn">
-        <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+        <label>Don’t fill this out if you're an actual human being: <input name="bot-field" /></label>
       </p>
       <div class="mt3">
         <label

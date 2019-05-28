@@ -1,7 +1,7 @@
 <template>
   <Layout>
     <h1>Thanks</h1>
-    <p>Your submission successfully submitted. We'll get in touch soon.</p>
+    <p>Your submission has been successfully submitted. We will get in touch with you soon.</p>
   </Layout>
 </template>
 
@@ -14,7 +14,7 @@ export default {
       title: 'Thanks',
       meta: metaTagGenerator({
         title: 'Thanks',
-        description: "Your submission successfully submitted. We'll get in touch soon.",
+        description: "Your submission has been successfully submitted. We will get in touch with you soon.",
         url: 'https://evilfactory.id/thanks/'
       })
     }
