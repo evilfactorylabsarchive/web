@@ -59,7 +59,7 @@ export default {
       title: 'Blog by evilfactory',
       meta: metaTagGenerator({
         title: 'Blog by evilfactory',
-        description: 'Read what our thoughts, tinkering, the proccess, and the output. Enjoy.',
+        description: 'Read our thoughts, experiments, the proccess, and the outcome of it. Enjoy.',
         url: 'https://evilfactory.id/blog/'
       })
     }

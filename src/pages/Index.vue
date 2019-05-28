@@ -12,15 +12,15 @@
       </h2>
       <p class="lh-copy mt4">
         evilfactory is a small team specializing in Modern Web Technologies.
-        We are tinkering with existing web technologies, JavaScript, Web Assembly
-        and Developer Experience.
+        We are experimenting with existing web technologies, mostly JavaScript, Web Assembly
+        and the Developer Experience behind it.
       </p>
       <p class="lh-copy mt4">
         Also, the Platform itself.
       </p>
       <p class="lh-copy mt4">
-        Our work (and posts) cover numerous topics, mostly about Web Platform; Its ecosystem,
-        JavaScript and so on like exploring new technologies.
+        Our work (and posts) cover numerous topics, mostly about the Web Platform: it's ecosystem,
+        JavaScript and the new technologies around it.
       </p>
       <p class="lh-copy mt4">
         Launching a new web application? Need help with an existing project?
@@ -46,7 +46,8 @@ export default {
       title: 'evilfactory: The Web Technologies tinkerer team',
       meta: metaTagGenerator({
         title: 'evilfactory: The Web Technologies tinkerer team',
-        description: 'We are tinkering with modern web technologies. Believe in OSS and speak JavaScript both on frontend and backend',
+        description: 'We are experimenting with existing web technologies, mostly JavaScript, Web Assembly
+        and the Developer Experience behind it.',
         url: 'https://evilfactory.id'
       })
     }
