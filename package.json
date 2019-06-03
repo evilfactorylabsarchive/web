@@ -1,18 +1,14 @@
 {
-  "name": "@evilfactorylabs/web",
   "private": true,
+  "license": "MIT",
   "scripts": {
-    "build": "gridsome build",
-    "develop": "gridsome develop",
-    "explore": "gridsome explore"
+    "dev": "next dev",
+    "build": "next build",
+    "export": "next build && next export"
   },
   "dependencies": {
-    "@gridsome/plugin-google-analytics": "0.1.0",
-    "@gridsome/remark-prismjs": "0.0.5",
-    "@gridsome/transformer-remark": "0.2.1",
-    "gridsome": "0.5.8"
-  },
-  "devDependencies": {
-    "gridsome-plugin-purgecss": "1.0.10"
+    "next": "8.1.0",
+    "react": "16.8.6",
+    "react-dom": "16.8.6"
   }
 }
