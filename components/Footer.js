@@ -1,7 +1,7 @@
 import Link from 'next/link'
 
 export default ({ links }) => (
-  <footer>
+  <footer className='u-with-padding'>
     <p>
       <span>
         <a href='mailto:hello@evilfactory.id'>Email</a> (

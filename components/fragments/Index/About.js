@@ -1,5 +1,5 @@
 export default () => (
-  <div>
+  <div className='u-with-padding'>
     <h4>About us</h4>
     <p>
       We are small, distributed, agile, and practial. We do care both with user

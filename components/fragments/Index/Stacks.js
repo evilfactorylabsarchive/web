@@ -1,6 +1,6 @@
 export default ({ stacks }) => {
   return (
-    <div>
+    <div className='u-with-padding'>
       <h4>Some tech stacks we enjoy</h4>
       <ul>
         {stacks.map(stack => (

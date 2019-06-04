@@ -1,6 +1,6 @@
 export default ({ projects }) => (
   <>
-    <div>
+    <div className='u-with-padding'>
       <h4>Software & Project we made</h4>
       <ul>
         {projects.map(project => (
@@ -14,7 +14,7 @@ export default ({ projects }) => (
         <li>More awesome open source software will be announced.</li>
       </ul>
     </div>
-    <div>
+    <div className='u-with-padding'>
       <h4>Clients we help</h4>
       <ul>
         <li>

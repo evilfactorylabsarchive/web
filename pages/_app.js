@@ -64,9 +64,7 @@ class MyApp extends App {
             width: 100%;
             animation: 0.5s bhaa;
           }
-
-          footer,
-          div {
+          .u-with-padding {
             padding: 0.666rem;
           }
           h2 {
@@ -117,9 +115,8 @@ class MyApp extends App {
             footer p {
               text-align: left;
             }
-            footer,
-            div {
-              padding: 1.8rem;
+            .u-with-padding {
+              padding: 2.666rem;
             }
           }
 

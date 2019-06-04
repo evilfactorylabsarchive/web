@@ -118,7 +118,7 @@ class IndexPage extends Component {
   render() {
     const { links, stacks, projects } = this.state
     return (
-      <div>
+      <div className='u-with-padding'>
         <Head>
           <title>evilfactory: The Web Technologies tinkerer team</title>
           <meta
