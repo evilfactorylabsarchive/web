@@ -19,7 +19,7 @@ export default ({ projects }) => (
       <ul>
         <li>
           TBD. Need our help to build your next or existing project?{' '}
-          <a href='mailto:hello@evilfactory.id'>Talk to us!</a>
+          <a onClick={() => $('.d-hotline').click()}>Talk to us!</a>
         </li>
       </ul>
     </div>
