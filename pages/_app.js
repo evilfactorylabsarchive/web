@@ -82,6 +82,7 @@ class MyApp extends App {
           a:hover,
           a:focus {
             text-decoration: underline;
+            cursor: pointer;
           }
           p,
           li {
