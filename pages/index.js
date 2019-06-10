@@ -112,6 +112,13 @@ class IndexPage extends Component {
         url: 'https://nadya.app',
         description:
           'Personal financial tracker built on top PWA & offline-first principles.'
+      },
+      {
+        id: 'edgy',
+        title: 'edgy',
+        url: 'https://edgy.network',
+        description:
+          'Fighting the status-quo of web app deployment in Indonesia.'
       }
     ]
   }
