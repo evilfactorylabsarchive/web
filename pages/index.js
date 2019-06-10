@@ -118,7 +118,7 @@ class IndexPage extends Component {
         title: 'edgy',
         url: 'https://edgy.network',
         description:
-          'Fighting the status-quo of web app deployment in Indonesia.'
+          'Fighting the status-quo of web app deployment in Indonesia, powering the JAMstack ecosystem.'
       }
     ]
   }
