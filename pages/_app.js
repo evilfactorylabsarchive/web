@@ -13,7 +13,7 @@ class MyApp extends App {
   }
   componentDidMount() {
     this.loadFont(
-      'https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap'
+      'https://fonts.googleapis.com/css?family=Poppins:400,700|Roboto:400&display=swap'
     )
   }
 
