@@ -5,7 +5,7 @@ export default ({ projects }) => (
       <ul>
         {projects.map(project => (
           <li key={project.id}>
-            <a href={project.url} target='_blank' rel='noopener noopener'>
+            <a href={project.url} target='_blank' rel='noopener noreferrer'>
               {project.title}
             </a>{' '}
             - {project.description}
