@@ -12,11 +12,6 @@ class IndexPage extends Component {
   state = {
     links: [
       {
-        id: 'blog',
-        title: 'Blog',
-        url: 'https://github.com/evilfactorylabs/blog/issues'
-      },
-      {
         id: 'twitter',
         title: 'Twitter',
         url: 'https://twitter.com/evilfactorylabs'
