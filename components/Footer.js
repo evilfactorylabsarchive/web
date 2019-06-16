@@ -14,6 +14,11 @@ export default ({ links }) => (
         </a>
         )
       </span>
+      <span>
+        <Link href='/blog'>
+          <a>Blog</a>
+        </Link>
+      </span>
       {links.map(link => (
         <span key={link.id}>
           <a href={link.url} target='_blank' rel='noopener noreferrer'>
