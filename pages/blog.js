@@ -23,7 +23,7 @@ const shouldAddZero = number => (~~number <= 9 ? '0' + number : number)
 const convertToDate = date => {
   const $date = new Date(date)
   const day = shouldAddZero($date.getDate())
-  const month = months[$date.getMonth()]
+  const month = months[$date.getMonth() + 1]
   const year = $date.getFullYear()
 
   return `${day} ${month} ${year}`
