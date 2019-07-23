@@ -15,7 +15,7 @@ export default ({ links }) => (
         )
       </span>
       <span>
-        <Link href='/blog'>
+        <Link href='https://engineering.evilfactory.id/blog/'>
           <a>Blog</a>
         </Link>
       </span>
